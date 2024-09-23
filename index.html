@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de Boda</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: #f8eaea;
+        }
+
+        .header {
+            background-color: #f8eaea;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            color: #d45d79;
+        }
+
+        .header p {
+            font-size: 24px;
+            color: #333;
+        }
+
+        /* Sección de fotos en vertical */
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .gallery img {
+            width: 80%;
+            max-width: 800px;
+            margin-bottom: 20px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8eaea;
+        }
+
+        .cta-section a {
+            text-decoration: none;
+            padding: 15px 30px;
+            background-color: #d45d79;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-section a:hover {
+            background-color: #bf4a66;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado de la boda -->
+    <div class="header">
+        <h1>[Nombres de los novios]</h1>
+        <p>Nos casamos el [Fecha de la boda]</p>
+    </div>
+
+    <!-- Galería de fotos en vertical -->
+    <div class="gallery">
+        <img src="cboda/boda1.png" alt="Foto 1">
+        <img src="cboda/boda2.png" alt="Foto 2">
+        <img src="cboda/boda3.png" alt="Foto 3">
+        <img src="cboda/boda4.png" alt="Foto 4">
+        <img src="cboda/boda5.png" alt="Foto 5">
+    </div>
+
+    <!-- Sección del botón de acción -->
+    <div class="cta-section">
+        <a href="confirmar.html">Confirma tu asistencia</a>
+    </div>
+
+</body>
+</html>
